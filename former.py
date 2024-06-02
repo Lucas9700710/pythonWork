@@ -3,7 +3,8 @@ import warn
 import json
 import time
 warn.showWarn()
-time.sleep(10)
-def walk(letter,step=2):
+time.sleep(5)
+def walk(letter,step=10):
     for n in range(step):
-        pg.typewrite("letter")
+        pg.typewrite(letter)
+walk("w",5)
