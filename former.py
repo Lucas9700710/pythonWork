@@ -7,4 +7,4 @@ time.sleep(5)
 def walk(letter,step=10):
     for n in range(step):
         pg.typewrite(letter)
-walk("w",5)
+walk("w",50)
