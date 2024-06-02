@@ -1,3 +1,6 @@
 import pyautogui as pg
-pg.typewrite("print(\"Hallow\")\n")
+pg.typewrite("\nprint(\"Hallow\")\n")
+print("Hallow")
+
+
 
