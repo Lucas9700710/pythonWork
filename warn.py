@@ -1,4 +1,5 @@
 import tkinter as tk
+import former
 win=tk.Tk()
 win.geometry("300x400")
 win.title("LucasWeb")
